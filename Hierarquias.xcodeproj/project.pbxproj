@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E80085BC1E9560BE00B4504B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80085BB1E9560BE00B4504B /* AppDelegate.swift */; };
-		E80085BE1E9560BE00B4504B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80085BD1E9560BE00B4504B /* ViewController.swift */; };
+		E80085BE1E9560BE00B4504B /* PropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80085BD1E9560BE00B4504B /* PropertiesViewController.swift */; };
 		E80085C11E9560BE00B4504B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80085BF1E9560BE00B4504B /* Main.storyboard */; };
 		E80085C31E9560BE00B4504B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80085C21E9560BE00B4504B /* Assets.xcassets */; };
 		E80085C61E9560BE00B4504B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80085C41E9560BE00B4504B /* LaunchScreen.storyboard */; };
+		E80085CE1E95629F00B4504B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80085CD1E95629F00B4504B /* CustomView.swift */; };
+		E80085DA1E959CE400B4504B /* GeometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80085D91E959CE400B4504B /* GeometryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E80085B81E9560BE00B4504B /* Hierarquias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hierarquias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80085BB1E9560BE00B4504B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E80085BD1E9560BE00B4504B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E80085BD1E9560BE00B4504B /* PropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesViewController.swift; sourceTree = "<group>"; };
 		E80085C01E9560BE00B4504B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E80085C21E9560BE00B4504B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80085C51E9560BE00B4504B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E80085C71E9560BE00B4504B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80085CD1E95629F00B4504B /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		E80085D91E959CE400B4504B /* GeometryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		E80085BA1E9560BE00B4504B /* Hierarquias */ = {
 			isa = PBXGroup;
 			children = (
-				E80085BB1E9560BE00B4504B /* AppDelegate.swift */,
-				E80085BD1E9560BE00B4504B /* ViewController.swift */,
 				E80085BF1E9560BE00B4504B /* Main.storyboard */,
+				E80085BB1E9560BE00B4504B /* AppDelegate.swift */,
+				E80085BD1E9560BE00B4504B /* PropertiesViewController.swift */,
+				E80085D91E959CE400B4504B /* GeometryViewController.swift */,
 				E80085C21E9560BE00B4504B /* Assets.xcassets */,
 				E80085C41E9560BE00B4504B /* LaunchScreen.storyboard */,
 				E80085C71E9560BE00B4504B /* Info.plist */,
+				E80085CD1E95629F00B4504B /* CustomView.swift */,
 			);
 			path = Hierarquias;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80085BE1E9560BE00B4504B /* ViewController.swift in Sources */,
+				E80085CE1E95629F00B4504B /* CustomView.swift in Sources */,
+				E80085DA1E959CE400B4504B /* GeometryViewController.swift in Sources */,
+				E80085BE1E9560BE00B4504B /* PropertiesViewController.swift in Sources */,
 				E80085BC1E9560BE00B4504B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
